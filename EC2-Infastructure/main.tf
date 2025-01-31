@@ -74,3 +74,8 @@ resource "aws_instance" "myec2" {
     Name = "myinstance-${count.index + 1}"
   }
 }
+
+# EXECUTE FILE USING THIS COMMANDS #
+# terraform init  
+# terraform plan
+# terraform apply
